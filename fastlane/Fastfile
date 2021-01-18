@@ -4,6 +4,7 @@ platform :ios do
   desc "Runs unit tests on iPhone 12 mini"
   lane :iphone12mini_tests do
     run_tests(devices: ["iPhone 12 mini"],
-            scheme: "Demo")
+              scheme: "Demo",
+	      cloned_source_packages_path: "SourcePackages")
   end
 end

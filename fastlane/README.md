@@ -20,7 +20,7 @@ or alternatively using `brew install fastlane`
 ```
 fastlane ios iphone12mini_tests
 ```
-Description of what the lane does
+Runs unit tests on iPhone 12 mini
 
 ----
 
