@@ -13,7 +13,7 @@ jobs:
       - run: for ip in $(dig @8.8.8.8 github.com +short); do ssh-keyscan github.com,$ip; ssh-keyscan $ip; done 2>/dev/null >> ~/.ssh/known_hosts || true
       - restore_cache:
           key: spm-cache-{{ checksum "Demo.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved" }}
-      - run: fastlane iphone12mini_tests
+      - run: bundle exec fastlane iphone12mini_tests
       - save_cache:
           paths:
             - SourcePackages/
