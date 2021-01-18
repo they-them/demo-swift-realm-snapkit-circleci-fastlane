@@ -8,5 +8,10 @@ final class AddRouter: RouterInterface {
 }
 
 extension AddRouter: AddRouterPresenterInterface {
-
+    func dismiss() {
+        viewController?.dismiss(animated: true, completion: {
+            self.presenter.delegate?.handleDismiss()
+        })
+        
+    }
 }

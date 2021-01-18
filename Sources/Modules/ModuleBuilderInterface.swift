@@ -4,5 +4,5 @@ import UIKit
 
 protocol ModuleBuilderInterface {
     func main() -> UIViewController
-    func add() -> UIViewController
+    func add(presenterDelegate: AddPresenterDelegate) -> UIViewController
 }

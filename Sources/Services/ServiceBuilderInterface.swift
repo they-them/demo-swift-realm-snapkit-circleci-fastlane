@@ -3,11 +3,12 @@
 import Foundation
 
 protocol ServiceBuilderInterface {
+    var realm: RealmPersistenceServiceInterface { get }
     func setup()
 }
 
 extension ServiceBuilderInterface {
     func setup() {
-        
+        realm.setup()
     }
 }

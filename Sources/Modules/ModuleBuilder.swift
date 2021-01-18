@@ -6,7 +6,7 @@ final class ModuleBuilder: ModuleBuilderInterface {
     func main() -> UIViewController {
         return MainModule().build()
     }
-    func add() -> UIViewController {
-        return AddModule().build()
+    func add(presenterDelegate: AddPresenterDelegate) -> UIViewController {
+        return AddModule().build(presenterDelegate: presenterDelegate)
     }
 }
