@@ -16,6 +16,28 @@
 		BD47CE3425B5CBAF00792217 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BD47CE3325B5CBAF00792217 /* Realm */; };
 		BD47CE3625B5CBAF00792217 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BD47CE3525B5CBAF00792217 /* RealmSwift */; };
 		BD47CE3B25B5CBC300792217 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BD47CE3A25B5CBC300792217 /* SnapKit */; };
+		BD5E9DE425B5DE6500402D9E /* ServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9DE325B5DE6500402D9E /* ServiceInterface.swift */; };
+		BD5E9DEA25B5DE7D00402D9E /* ServiceBuilderInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9DE925B5DE7D00402D9E /* ServiceBuilderInterface.swift */; };
+		BD5E9DEF25B5DECE00402D9E /* RealmPersistenceServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9DEE25B5DECE00402D9E /* RealmPersistenceServiceInterface.swift */; };
+		BD5E9DF325B5DEFD00402D9E /* RealmPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9DF225B5DEFD00402D9E /* RealmPersistenceService.swift */; };
+		BD5E9DF825B5DF3B00402D9E /* Viper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9DF725B5DF3B00402D9E /* Viper.swift */; };
+		BD5E9DFC25B5DF4F00402D9E /* ServiceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9DFB25B5DF4F00402D9E /* ServiceInteractor.swift */; };
+		BD5E9E0025B5DF7200402D9E /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9DFF25B5DF7200402D9E /* AppConfig.swift */; };
+		BD5E9E0425B5DFA000402D9E /* ServiceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E0325B5DFA000402D9E /* ServiceBuilder.swift */; };
+		BD5E9E0A25B5DFE500402D9E /* ModuleBuilderInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E0925B5DFE500402D9E /* ModuleBuilderInterface.swift */; };
+		BD5E9E0E25B5DFFB00402D9E /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E0D25B5DFFB00402D9E /* ModuleBuilder.swift */; };
+		BD5E9E1C25B5E15400402D9E /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E1725B5E15400402D9E /* MainRouter.swift */; };
+		BD5E9E1D25B5E15400402D9E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E1825B5E15400402D9E /* MainView.swift */; };
+		BD5E9E1E25B5E15400402D9E /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E1925B5E15400402D9E /* MainModule.swift */; };
+		BD5E9E1F25B5E15400402D9E /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E1A25B5E15400402D9E /* MainInteractor.swift */; };
+		BD5E9E2025B5E15400402D9E /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E1B25B5E15400402D9E /* MainPresenter.swift */; };
+		BD5E9E2825B5E15F00402D9E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E2325B5E15F00402D9E /* AddView.swift */; };
+		BD5E9E2925B5E15F00402D9E /* AddRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E2425B5E15F00402D9E /* AddRouter.swift */; };
+		BD5E9E2A25B5E15F00402D9E /* AddModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E2525B5E15F00402D9E /* AddModule.swift */; };
+		BD5E9E2B25B5E15F00402D9E /* AddPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E2625B5E15F00402D9E /* AddPresenter.swift */; };
+		BD5E9E2C25B5E15F00402D9E /* AddInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E2725B5E15F00402D9E /* AddInteractor.swift */; };
+		BD5E9E3025B5E1F700402D9E /* AddInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E2F25B5E1F700402D9E /* AddInterface.swift */; };
+		BD5E9E3625B5E21700402D9E /* MainInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E9E3525B5E21700402D9E /* MainInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +61,28 @@
 		BD47CE2025B5C97700792217 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD47CE2225B5C97700792217 /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
 		BD47CE2425B5C97700792217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5E9DE325B5DE6500402D9E /* ServiceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInterface.swift; sourceTree = "<group>"; };
+		BD5E9DE925B5DE7D00402D9E /* ServiceBuilderInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBuilderInterface.swift; sourceTree = "<group>"; };
+		BD5E9DEE25B5DECE00402D9E /* RealmPersistenceServiceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPersistenceServiceInterface.swift; sourceTree = "<group>"; };
+		BD5E9DF225B5DEFD00402D9E /* RealmPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPersistenceService.swift; sourceTree = "<group>"; };
+		BD5E9DF725B5DF3B00402D9E /* Viper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viper.swift; sourceTree = "<group>"; };
+		BD5E9DFB25B5DF4F00402D9E /* ServiceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInteractor.swift; sourceTree = "<group>"; };
+		BD5E9DFF25B5DF7200402D9E /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		BD5E9E0325B5DFA000402D9E /* ServiceBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBuilder.swift; sourceTree = "<group>"; };
+		BD5E9E0925B5DFE500402D9E /* ModuleBuilderInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilderInterface.swift; sourceTree = "<group>"; };
+		BD5E9E0D25B5DFFB00402D9E /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		BD5E9E1725B5E15400402D9E /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		BD5E9E1825B5E15400402D9E /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BD5E9E1925B5E15400402D9E /* MainModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
+		BD5E9E1A25B5E15400402D9E /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		BD5E9E1B25B5E15400402D9E /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		BD5E9E2325B5E15F00402D9E /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		BD5E9E2425B5E15F00402D9E /* AddRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRouter.swift; sourceTree = "<group>"; };
+		BD5E9E2525B5E15F00402D9E /* AddModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddModule.swift; sourceTree = "<group>"; };
+		BD5E9E2625B5E15F00402D9E /* AddPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPresenter.swift; sourceTree = "<group>"; };
+		BD5E9E2725B5E15F00402D9E /* AddInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInteractor.swift; sourceTree = "<group>"; };
+		BD5E9E2F25B5E1F700402D9E /* AddInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInterface.swift; sourceTree = "<group>"; };
+		BD5E9E3525B5E21700402D9E /* MainInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +128,9 @@
 		BD47CE0125B5C8D600792217 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				BD47CE0225B5C8D600792217 /* AppDelegate.swift */,
-				BD47CE0425B5C8D600792217 /* SceneDelegate.swift */,
+				BD5E9DDE25B5DDDC00402D9E /* App */,
+				BD5E9DE125B5DE1500402D9E /* Services */,
+				BD5E9DE225B5DE2000402D9E /* Modules */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -101,6 +146,7 @@
 		BD47CE1825B5C8F200792217 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BD5E9DF625B5DF1D00402D9E /* Viper */,
 				BD47CE0825B5C8D700792217 /* Assets.xcassets */,
 				BD47CE0D25B5C8D700792217 /* LaunchScreen.storyboard */,
 				BD47CE1025B5C8D700792217 /* Info.plist */,
@@ -116,6 +162,82 @@
 				BD47CE2425B5C97700792217 /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		BD5E9DDE25B5DDDC00402D9E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E9DFF25B5DF7200402D9E /* AppConfig.swift */,
+				BD47CE0225B5C8D600792217 /* AppDelegate.swift */,
+				BD47CE0425B5C8D600792217 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BD5E9DE125B5DE1500402D9E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E9DED25B5DEBD00402D9E /* Realm */,
+				BD5E9DE325B5DE6500402D9E /* ServiceInterface.swift */,
+				BD5E9DE925B5DE7D00402D9E /* ServiceBuilderInterface.swift */,
+				BD5E9DFB25B5DF4F00402D9E /* ServiceInteractor.swift */,
+				BD5E9E0325B5DFA000402D9E /* ServiceBuilder.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BD5E9DE225B5DE2000402D9E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E9E0925B5DFE500402D9E /* ModuleBuilderInterface.swift */,
+				BD5E9E0D25B5DFFB00402D9E /* ModuleBuilder.swift */,
+				BD5E9E1125B5E04B00402D9E /* Main */,
+				BD5E9E1225B5E04F00402D9E /* Add */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BD5E9DED25B5DEBD00402D9E /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E9DEE25B5DECE00402D9E /* RealmPersistenceServiceInterface.swift */,
+				BD5E9DF225B5DEFD00402D9E /* RealmPersistenceService.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		BD5E9DF625B5DF1D00402D9E /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E9DF725B5DF3B00402D9E /* Viper.swift */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		BD5E9E1125B5E04B00402D9E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E9E1925B5E15400402D9E /* MainModule.swift */,
+				BD5E9E3525B5E21700402D9E /* MainInterface.swift */,
+				BD5E9E1825B5E15400402D9E /* MainView.swift */,
+				BD5E9E1A25B5E15400402D9E /* MainInteractor.swift */,
+				BD5E9E1B25B5E15400402D9E /* MainPresenter.swift */,
+				BD5E9E1725B5E15400402D9E /* MainRouter.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BD5E9E1225B5E04F00402D9E /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E9E2525B5E15F00402D9E /* AddModule.swift */,
+				BD5E9E2F25B5E1F700402D9E /* AddInterface.swift */,
+				BD5E9E2325B5E15F00402D9E /* AddView.swift */,
+				BD5E9E2725B5E15F00402D9E /* AddInteractor.swift */,
+				BD5E9E2625B5E15F00402D9E /* AddPresenter.swift */,
+				BD5E9E2425B5E15F00402D9E /* AddRouter.swift */,
+			);
+			path = Add;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,8 +349,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5E9E0025B5DF7200402D9E /* AppConfig.swift in Sources */,
+				BD5E9E1D25B5E15400402D9E /* MainView.swift in Sources */,
+				BD5E9E3025B5E1F700402D9E /* AddInterface.swift in Sources */,
+				BD5E9E2825B5E15F00402D9E /* AddView.swift in Sources */,
+				BD5E9E3625B5E21700402D9E /* MainInterface.swift in Sources */,
+				BD5E9E2025B5E15400402D9E /* MainPresenter.swift in Sources */,
+				BD5E9E0A25B5DFE500402D9E /* ModuleBuilderInterface.swift in Sources */,
+				BD5E9E2A25B5E15F00402D9E /* AddModule.swift in Sources */,
+				BD5E9E2B25B5E15F00402D9E /* AddPresenter.swift in Sources */,
 				BD47CE0325B5C8D600792217 /* AppDelegate.swift in Sources */,
+				BD5E9DEF25B5DECE00402D9E /* RealmPersistenceServiceInterface.swift in Sources */,
+				BD5E9DEA25B5DE7D00402D9E /* ServiceBuilderInterface.swift in Sources */,
+				BD5E9E1C25B5E15400402D9E /* MainRouter.swift in Sources */,
 				BD47CE0525B5C8D600792217 /* SceneDelegate.swift in Sources */,
+				BD5E9DF825B5DF3B00402D9E /* Viper.swift in Sources */,
+				BD5E9DF325B5DEFD00402D9E /* RealmPersistenceService.swift in Sources */,
+				BD5E9DFC25B5DF4F00402D9E /* ServiceInteractor.swift in Sources */,
+				BD5E9DE425B5DE6500402D9E /* ServiceInterface.swift in Sources */,
+				BD5E9E2925B5E15F00402D9E /* AddRouter.swift in Sources */,
+				BD5E9E0425B5DFA000402D9E /* ServiceBuilder.swift in Sources */,
+				BD5E9E1E25B5E15400402D9E /* MainModule.swift in Sources */,
+				BD5E9E0E25B5DFFB00402D9E /* ModuleBuilder.swift in Sources */,
+				BD5E9E2C25B5E15F00402D9E /* AddInteractor.swift in Sources */,
+				BD5E9E1F25B5E15400402D9E /* MainInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
