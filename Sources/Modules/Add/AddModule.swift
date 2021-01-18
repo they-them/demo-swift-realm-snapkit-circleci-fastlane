@@ -10,14 +10,14 @@ final class AddModule: ModuleInterface {
     typealias Router = AddRouter
     typealias Interactor = AddInteractor
 
-    func build() -> UIViewController {
+    func build(presenterDelegate: AddPresenterDelegate) -> UIViewController {
         let view = View()
         let interactor = Interactor()
         let presenter = Presenter()
         let router = Router()
 
         self.assemble(view: view, presenter: presenter, router: router, interactor: interactor)
-
+        presenter.delegate = presenterDelegate
         router.viewController = view
 
         return view

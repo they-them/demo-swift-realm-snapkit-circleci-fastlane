@@ -2,10 +2,17 @@
 
 import Foundation
 
-final class MainInteractor: InteractorInterface {
+final class MainInteractor: ServiceInteractor, InteractorInterface {
     weak var presenter: MainPresenterInteractorInterface!
 }
 
 extension MainInteractor: MainInteractorPresenterInterface {
-
+    func delete(mood: Mood) {
+        services.realm.remove(mood: mood)
+    }
+    
+    func fetch() {
+        let moods = services.realm.fetch()
+        presenter.hasUpdatedData(moods: moods)
+    }
 }
