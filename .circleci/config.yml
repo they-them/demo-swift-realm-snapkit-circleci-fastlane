@@ -17,4 +17,4 @@ jobs:
       - save_cache:
            paths:
              - SourcePackages/
-           key: spm-cache-{{ checksum "spm-cache-test.xcodeproj/ project.xcworkspace/xcshareddata/ swiftpm/Package.resolved" }}
+           key: spm-cache-{{ checksum "Demo.xcodeproj/project.xcworkspace/xcshareddata/ swiftpm/Package.resolved" }}
