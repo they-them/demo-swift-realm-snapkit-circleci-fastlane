@@ -8,7 +8,13 @@ jobs:
 
     steps:
       - checkout
+      - restore_cache:
+           key: spm-cache-{{ checksum "Demo.xcodeproj/project.xcworkspace/ xcshareddata/swiftpm/Package.resolved" }}
       - run: sudo defaults write com.apple.dt.Xcode IDEPackageSupportUseBuiltinSCM YES
       - run: rm ~/.ssh/id_rsa || true
       - run: for ip in $(dig @8.8.8.8 github.com +short); do ssh-keyscan github.com,$ip; ssh-keyscan $ip; done 2>/dev/null >> ~/.ssh/known_hosts || true
       - run: fastlane iphone12mini_tests
+      - save_cache:
+           paths:
+             - SourcePackages/
+           key: spm-cache-{{ checksum "spm-cache-test.xcodeproj/ project.xcworkspace/xcshareddata/ swiftpm/Package.resolved" }}
